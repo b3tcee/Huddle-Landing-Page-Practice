@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.one{
+  background-image: url(images/bg-hero-desktop.svg) ;
+  height: 400px;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  padding-top: 45px;
+}
+.try-button{
+  margin-left: 900px;
+  padding: 13px;
+  width: 150px;
+  border-radius: 45px;
+  border: none;
+  background-color: rgb(255,255,255);
+  box-shadow: 1px 1px 5px #b8b8b8;
+
+}
+.flex{
+  display: flex;
+  flex-direction:row;
+  margin-left: 50px;
+}
+.Conversations,.Users,.Growth{
+ margin-bottom: 30px;
+  width: 850px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #b8b8b8;
+  padding: 30px;
+}
+.gc,.uc {
+  height: auto;
+  width: 400px;
+  margin-left: 50px;
+}
+.fc{
+  height: auto;
+  width: 400px;
+  margin-left: 455px;
+}
+.Growth{
+  margin-top: 130px;
+}
+.ftext{
+  margin-top: 70px;
+  width: 400px;
+}
+.free-button{
+  width: 210px;
+  background-color: magenta;
+  border-radius:45px;
+  height: 50px;
+  border: none;
+  color: white;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+.bottom{
+  background-color:#042c34;
+  padding: 100px 75px 100px 75px;
+  color: rgb(255,255,255);
+}
+.build{
+  width: 300px;
+  padding: 32px 60px 25px 60px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #b8b8b8;
+}
+.grid-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 0px auto;
+}
