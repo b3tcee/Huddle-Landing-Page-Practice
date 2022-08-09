@@ -1,11 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; background-color: #042c34; margin: 0px;}
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+  font-family: 'Poppins';
+}
 
 .one{
   background-image: url(images/bg-hero-desktop.svg) ;
-  height: 400px;
+  height: 540px;
 }
 .heading{
   display: flex;
@@ -28,22 +32,22 @@
   margin-left: 50px;
 }
 .Conversations,.Users,.Growth{
- margin-bottom: 30px;
   width: 850px;
-  margin: auto;
+  margin: 0px auto 30px auto;
   border-radius: 10px;
   box-shadow: 1px 1px 6px #b8b8b8;
   padding: 30px;
+  display: flex;
+  flex-direction: row;
 }
 .gc,.uc {
   height: auto;
-  width: 400px;
+  width: 770px;
   margin-left: 50px;
 }
 .fc{
   height: auto;
-  width: 400px;
-  margin-left: 455px;
+
 }
 .Growth{
   margin-top: 130px;
@@ -68,15 +72,113 @@
   color: rgb(255,255,255);
 }
 .build{
-  width: 300px;
-  padding: 32px 60px 25px 60px;
+  min-width: 330px;
+  max-width: 500px;
+  padding: 18px 82px 25px 109px;
   margin: auto;
   border-radius: 10px;
   box-shadow: 1px 1px 6px #b8b8b8;
+  position: relative;
+  top: 65px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
 }
+
 .grid-box{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 80%;
+  display: block;
   margin: 0px auto;
 }
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.mockupimg{
+  height: 93%;
+  width: 47%;
+  float: right;
+  margin-right: 100px;
+  margin-top: 49px;
+}
+.images{
+  height: 94%;
+  width: 52%;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.convo{
+  height: 94%;
+  width: 52%; 
+}
+.heading-bar{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+nav{
+  background-color: white;
+  height: 80px;
+  width: 100%;
+  box-shadow: 1px 1px 6px #b8b8b8;
+}
+nav ul{
+  float: right;
+  margin: 0px 40px;
+  position: relative;
+}
+
+nav ul li{
+  display: inline;
+  line-height: 80px;
+  margin: 0 20px;
+  position: relative;
+  
+}
+
+.heading-bar a:hover{
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: .5s;
+
+}
+
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 7x 13px;
+  border-radius: 3px;
+}
+
+.heading-logo{
+  margin-top: 26px;
+  height: 25px;
+  margin-left: 23px;
+}
+
+.dropdown_menu{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+ background-color: white; 
+ }
+ /*.dropdown_menu ul{
+  display: block;
+  margin: 10px;
+}
+  */
+
+/*.fas{
+  float: left;
+  margin: 10px;
+}*/
