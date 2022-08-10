@@ -3,8 +3,14 @@
 .attribution { font-size: 11px; text-align: center; background-color: #042c34; margin: 0px;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
+* {
+  margin: 0px auto;
+  padding: 0px
+}
+
 body{
   font-family: 'Poppins';
+
 }
 
 .one{
@@ -169,16 +175,20 @@ nav ul li a{
   display: block;
   position: absolute;
   left: 0;
-  top: 100%;
- background-color: white; 
- }
- /*.dropdown_menu ul{
+  top: 3.2em;
+  background-color: white; 
+}
+.dropdown_menu ul{
   display: block;
   margin: 10px;
+  width: 19em;
 }
-  */
 
-/*.fas{
-  float: left;
+.fas{
+  /* float: left; */
   margin: 10px;
-}*/
+}
+
+.toggle-dropdown {
+  display: none;
+}
