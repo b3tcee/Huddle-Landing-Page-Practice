@@ -21,14 +21,14 @@
       <li><a  class="active" href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li>
-        <a href="#services">Services<i class="fas fa-caret-down"></i></a>
-       <div class="dropdown_menu">
+        <a href="#services"  id="service-btn" onClick="showDropdown()" id="service-btn" onClick="showDropdown()">Services<i class="fas fa-caret-down"></i></a>
+       <div class="dropdown_menu toggle-dropdown">
           <ul>
             <li><a href="#growtogether">Growing Together</a></li>
             <li><a href="#flowingcovo">Flowing conversation</a></li>
             <li><a href="#users">Your Users</a></li>
           </ul>
-        </div> 
+        </div>
       </li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#feedback">Feedback</a></li>
@@ -121,6 +121,34 @@
       Coded by <a href="#">Betsy</a>.
     </p>
   </footer>
+
+  <script type="text/javascript">
+    // Get the tag that has the "service-dropdown" id
+    // Store it in a variable
+    
+    let serviceDropdown = document.querySelector(".toggle-dropdown");
+    let serviceBtn = document.querySelector("#service-btn");
+
+    serviceBtn.addEventListener('click', dropdown)
+    console.log(serviceDropdown.classList)
+
+    // make it invisible
+    function dropdown() {
+      if (serviceDropdown.classList.contains("toggle-dropdown")) {
+        showDropdown()
+      }
+    }
+    
+    function showDropdown() {
+      serviceDropdown.classList.remove("toggle-dropdown");
+      console.log("Show dropdown");
+    }
+
+    function hideDropdown() {
+      serviceDropdown.classList.add("toggle-dropdown");
+      console.log("Hide dropdown");
+    }
+  </script>
  </div>
 </body>
 </html>
