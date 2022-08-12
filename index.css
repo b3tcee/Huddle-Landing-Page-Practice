@@ -132,7 +132,7 @@ nav{
 nav ul{
   float: right;
   margin: 0px 40px;
-  position: relative;
+  
 }
 
 nav ul li{
@@ -172,13 +172,12 @@ nav ul li a{
   top: 100%;
  background-color: white; 
  }
- /*.dropdown_menu ul{
+
+.dropdown_menu ul{
   display: block;
   margin: 10px;
 }
-  */
 
-/*.fas{
-  float: left;
+.fas{
   margin: 10px;
-}*/
+}
