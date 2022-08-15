@@ -27,7 +27,7 @@ body{
   padding-top: 45px;
 }
 .try-button{
-  margin-left: 900px;
+  /* margin-left: 900px; */
   padding: 13px;
   width: 150px;
   border-radius: 45px;
@@ -131,26 +131,30 @@ body{
   width: 52%; 
 }
 .heading-bar{
+  display: flex;
+  width: 100%;
   padding: 0;
   margin: 0;
+  height: 80px;
+  box-shadow: 1px 1px 6px #b8b8b8;
+}
+
+.heading-bar nav {
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
   animation-name: fade-in;
   animation-duration: 2s;
+  width: 55%;
 }
-nav{
-  background-color: white;
-  height: 80px;
-  width: 100%;
-  box-shadow: 1px 1px 6px #b8b8b8;
-  
+.heading-logo {
+  width: 28%;
 }
+
 nav ul{
-  float: right;
+  /* float: right; */
   margin: 0px 40px;
   animation: fade-in 2s ease-out 2s;
-  
 }
 
 nav ul li{
@@ -160,12 +164,15 @@ nav ul li{
   position: relative;
   
 }
+nav div.try-free {
+  width: 15%;
+  margin: 15px 0 0 0;
+}
 
-.heading-bar a:hover{
+.heading-bar nav a:hover{
   cursor: pointer;
   background-color: #f0f0f0;
   transition: .5s;
-
 }
 
 nav ul li a{
