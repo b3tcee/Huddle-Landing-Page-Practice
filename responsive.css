@@ -1,0 +1,38 @@
+/* Responsive Design For Phones */
+@media only screen and (max-width: 414px) {
+ .one{
+  background-image: url(images/bg-hero-mobile.svg);
+ } 
+
+ /*.logo1{
+  width: 100px;
+  height:24px;
+ } */
+ 
+ .flex{
+  flex-direction: column;
+ }
+ .Conversations, .Users, .Growth {
+  width: 290px;
+  margin: 0px auto 42px auto;
+  flex-direction: column-reverse;
+ }
+ .right{
+  margin-left: 75px;
+      /* float: right*/
+ }
+ .gc, .uc {
+  width: 210px;
+  text-align: center;
+ }
+ 
+ .build {
+     min-width: 193px;
+    }
+
+    .grid-box{
+    margin: 20px auto;
+    }
+    
+}
+

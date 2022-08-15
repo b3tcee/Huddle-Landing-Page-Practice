@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="index.css">
   <link href="responsive.css" rel="stylesheet">
+  <link href="animations.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
@@ -21,14 +22,14 @@
       <li><a  class="active" href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li>
-        <a href="#services" id="service-btn" onClick="showDropdown()">Services<i class="fas fa-caret-down"></i></a>
-        <div class="dropdown_menu toggle-dropdown">
-            <ul>
-              <li><a href="#growtogether">Growing Together</a></li>
-              <li><a href="#flowingcovo">Flowing conversation</a></li>
-              <li><a href="#users">Your Users</a></li>
-            </ul>
-          </div> 
+        <a href="#services"  id="service-btn" onClick="showDropdown()" id="service-btn" onClick="showDropdown()">Services<i class="fas fa-caret-down"></i></a>
+       <!--<div class="dropdown_menu toggle-dropdown">
+          <ul>
+            <li><a href="#growtogether">Growing Together</a></li>
+            <li><a href="#flowingcovo">Flowing conversation</a></li>
+            <li><a href="#users">Your Users</a></li>
+          </ul>
+        </div> -->
       </li>
       <li><a href="#contact">Contact</a></li>
       <li><a href="#feedback">Feedback</a></li>
@@ -57,7 +58,7 @@
       </div>
     </div>
   </div>
-  <div class="Growth">
+  <section class="Growth">
     <div class="gc">
       <h3>Grow Together</h3>
        <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
@@ -65,10 +66,10 @@
     </div>
     <div>
       <img class="images right" src="images/illustration-grow-together.svg">
-    </div> --> 
-  </div>
+    </div>
+  </section>
 
-  <div class="Conversations">
+  <section class="Conversations">
     <div>
       <img class="images left convo" src="images/illustration-flowing-conversation.svg">
     </div> 
@@ -78,9 +79,9 @@
         have just-in-time loading for a more natural flow.</p>
     </div>
 
-  </div>
+  </section>
 
-  <div class="Users">
+  <section class="Users">
    <div class="uc">
     <h3>Your Users</h3> 
     <p> It takes no time at all to integrate Huddle with your app's authentication solution. 
@@ -89,7 +90,7 @@
    <div>
      <img class="images right" src="images/illustration-your-users.svg">
    </div>
-  </div>
+  </section>
 
   <div class="build">
     <h3>Ready To Build Your Community?</h3>
@@ -113,7 +114,9 @@
       <p>Blog</p>
       <p> Contact Us</p>
     </div>
-   <p class="right">&copy; Copyright 2018 Huddle. All rights reserved.</divp> 
+ </div>
+ <div>
+  <p class="right">&copy; Copyright 2018 Huddle. All rights reserved.</p> 
  </div>
   <footer>
     <p class="attribution">
