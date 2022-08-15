@@ -25,5 +25,14 @@
   width: 210px;
   text-align: center;
  }
+ 
+ .build {
+     min-width: 193px;
+    }
 
+    .grid-box{
+    margin: 20px auto;
+    }
+    
 }
+

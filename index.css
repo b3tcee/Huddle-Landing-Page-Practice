@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(animations.css);
 
 .attribution { font-size: 11px; text-align: center; background-color: #042c34; margin: 0px;}
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -111,6 +112,10 @@ body{
 }
 .right{
   float: right;
+  color: white;
+  margin-top: -20px;
+  font-size: 10px;
+  margin-right: 100px;
 }
 .left{
   float: left;
@@ -128,16 +133,20 @@ body{
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
+  animation-name: fade-in;
+  animation-duration: 2s;
 }
 nav{
   background-color: white;
   height: 80px;
   width: 100%;
   box-shadow: 1px 1px 6px #b8b8b8;
+  
 }
 nav ul{
   float: right;
   margin: 0px 40px;
+  animation: fade-in 2s ease-out 2s;
   
 }
 
