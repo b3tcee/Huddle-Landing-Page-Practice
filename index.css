@@ -12,6 +12,9 @@ body{
   font-family: 'Poppins';
 
 }
+.body-wrapper {
+  margin: 5% auto;
+}
 
 .one{
   background-image: url(images/bg-hero-desktop.svg) ;
@@ -178,6 +181,8 @@ nav ul li a{
   top: 3.2em;
   background-color: white; 
 }
+
+/* Descendant selector */
 .dropdown_menu ul{
   display: block;
   margin: 10px;
@@ -192,3 +197,33 @@ nav ul li a{
 .toggle-dropdown {
   display: none;
 }
+
+/* ===================== TYPES OF CSS SELECTORS ========================= */
+
+/* Tag selector */
+/* footer {
+  display: block;
+} */
+
+/* Child selector */
+/* nav > ul {
+  color: black;
+} */
+
+/* Adjacent selector */
+/* header + div.body-wrapper {
+  display: block;
+} */
+
+/* Group selector */
+/* #service-btn, .heading {
+  display: none;
+} */
+
+/* Attribute selector */
+/* input[type=text] {
+  color: pink;
+}
+input[type=password]  {
+  color: yellow;
+} */
